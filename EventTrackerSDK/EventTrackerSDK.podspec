@@ -9,7 +9,7 @@ Pod::Spec.new do |spec|
   spec.requires_arc = true
   spec.module_name = 'EventTrackerSDK'
   spec.ios.deployment_target = "8.0"
-  spec.source_files  = "EventTrackerSDK/**/*.{h,m}"
+  spec.source_files  = "EventTrackerSDK/**/EventTrackerSDK.h"
   spec.exclude_files = "EventTrackerSDK/Event.{h,m}"
   spec.public_header_files = "EventTrackerSDK/**/EventTrackerSDK.h"
   spec.description  = "A EventTrackerSDK is used to track user behaviour to test"
