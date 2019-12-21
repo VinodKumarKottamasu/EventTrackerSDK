@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "EventTrackerSDK"
-  spec.version      = "1.0.0"
+  spec.version      = "1.0.1"
   spec.summary      = "A EventTrackerSDK is used to track user behaviour"
   spec.homepage     = "https://github.com/VinodKumarKottamasu/EventTrackerSDK"
   spec.author       = { "Vinod" => "kvkumarece@gmail.com" }
