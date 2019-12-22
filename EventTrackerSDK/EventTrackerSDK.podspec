@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "EventTrackerSDK"
-  spec.version      = "1.0.2"
+  spec.version      = "1.0.3"
   spec.summary      = "A EventTrackerSDK is used to track user behaviour"
   spec.homepage     = "https://github.com/VinodKumarKottamasu/EventTrackerSDK"
   spec.author       = { "Vinod" => "kvkumarece@gmail.com" }
@@ -9,8 +9,7 @@ Pod::Spec.new do |spec|
   spec.requires_arc = true
   spec.module_name = 'EventTrackerSDK'
   spec.ios.deployment_target = "8.0"
-  spec.source_files  = "EventTrackerSDK/**/EventTrackerSDK.{h,m}"
+  spec.source_files  = "EventTrackerSDK/**/*.{h,m}"
   spec.exclude_files = "EventTrackerSDK/Event.{h,m}"
-  spec.public_header_files = "EventTrackerSDK/**/EventTrackerSDK.h"
   spec.description  = "A EventTrackerSDK is used to track user behaviour to test"
 end
